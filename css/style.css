@@ -32,14 +32,15 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
 .fullscreen-video-wrap video {
-  min-width: 100vw;
-  min-height: 100vh;
+  display: block;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -110,6 +111,10 @@ body {
 
   .btn {
     display: block;
+  }
+
+  .fullscreen-video-wrap video {
+    width: 50%;
   }
 
 }
