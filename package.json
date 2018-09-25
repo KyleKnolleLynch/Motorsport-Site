@@ -1,0 +1,19 @@
+{
+  "name": "car-site",
+  "version": "1.0.0",
+  "description": "motorsport website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleKnolleLynch/Motorsport-Site.git"
+  },
+  "author": "Kyle Lynch",
+  "license": "MIT",
+  "homepage": "https://kyleknollelynch.github.io/Motorsport-Site",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
